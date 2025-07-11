@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Class Navigator - Sharda University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="dark-theme">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <img src="images/new_logo_2 (1).png" 
+                     alt="Sharda University" 
+                     class="university-logo">
+                <a href="#" class="logo-text">Free Class Navigator</a>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item active"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li class="navbar-item"><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                <li class="navbar-item"><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Hidden by default) -->
+    <div class="mobile-menu">
+        <ul>
+            <li class="mobile-item active"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+            <li class="mobile-item"><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+            <li class="mobile-item"><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <!-- Theme Switcher -->
+        <div class="theme-switcher">
+            <span class="theme-label"><i class="fas fa-moon"></i></span>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle" checked>
+                <span class="slider round"></span>
+            </label>
+            <span class="theme-label"><i class="fas fa-sun"></i></span>
+        </div>
+
+        <div id="home-screen" class="screen active">
+            <div class="header-card">
+                <img src="images/new_logo_2 (1).png" 
+                     alt="Sharda University" 
+                     class="header-logo">
+                <h1><i class="fas fa-school"></i> FREE CLASS NAVIGATOR</h1>
+                <h3>Sharda University - Beyond Boundaries</h3>
+            </div>
+            
+            <div class="card">
+                <div class="card-title">
+                    <h2><i class="fas fa-search"></i> Find Available Classrooms</h2>
+                    <p>Enter your search criteria below</p>
+                </div>
+                <div class="card-content">
+                    <div class="form-group">
+                        <label><i class="fas fa-building"></i> Select Block</label>
+                        <div class="dropdown">
+                            <button id="block-dropdown-btn" class="dropdown-button">
+                                <span class="dropdown-text">Select Block Number</span>
+                                <span class="dropdown-icon">▼</span>
+                            </button>
+                            <div id="block-dropdown-content" class="dropdown-content">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label><i class="fas fa-calendar-day"></i> Select Day</label>
+                        <div class="dropdown">
+                            <button id="day-dropdown-btn" class="dropdown-button">
+                                <span class="dropdown-text">Select Day</span>
+                                <span class="dropdown-icon">▼</span>
+                            </button>
+                            <div id="day-dropdown-content" class="dropdown-content">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label><i class="fas fa-clock"></i> Select Time</label>
+                        <div class="dropdown">
+                            <button id="time-dropdown-btn" class="dropdown-button">
+                                <span class="dropdown-text">Select Time</span>
+                                <span class="dropdown-icon">▼</span>
+                            </button>
+                            <div id="time-dropdown-content" class="dropdown-content">
+                                <!-- Will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-actions">
+                    <button id="search-button" class="button primary"><i class="fas fa-search"></i> Find Free Rooms</button>
+                </div>
+            </div>
+            
+            <div class="card info-card" id="about">
+                <div class="card-title">
+                    <h2><i class="fas fa-info-circle"></i> About</h2>
+                </div>
+                <div class="card-content">
+                    <p>Free Class Navigator helps Sharda University students find available classrooms based on the block number, day, and time. Sharda University, known for its commitment to go "Beyond Boundaries," provides this tool to enhance campus navigation and resource utilization.</p>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="features-section">
+                <h2 class="section-title">Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Quick Search</h3>
+                        <p>Find available rooms in seconds with our intuitive search</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Real-time Availability</h3>
+                        <p>Check classroom availability based on current timetables</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Block Navigation</h3>
+                        <p>Filter rooms by university blocks for easier searching</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider for testimonials -->
+            <div class="testimonials-section">
+                <h2 class="section-title">What Students Say</h2>
+                <div class="testimonials-slider">
+                    <div class="slider-container">
+                        <div class="slider-track">
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-content">
+                                        <p>"This app saved me so much time finding empty classrooms for group study!"</p>
+                                        <div class="testimonial-author">
+                                            <div class="author-avatar">
+                                                <i class="fas fa-user-circle"></i>
+                                            </div>
+                                            <div class="author-info">
+                                                <h4>Raj Sharma</h4>
+                                                <p>B.Tech CSE - 3rd Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-content">
+                                        <p>"Now I always know where to find a quiet place to study between classes."</p>
+                                        <div class="testimonial-author">
+                                            <div class="author-avatar">
+                                                <i class="fas fa-user-circle"></i>
+                                            </div>
+                                            <div class="author-info">
+                                                <h4>Priya Patel</h4>
+                                                <p>B.Tech CSE - 4th Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-content">
+                                        <p>"Perfect tool for finding available rooms for impromptu study sessions!"</p>
+                                        <div class="testimonial-author">
+                                            <div class="author-avatar">
+                                                <i class="fas fa-user-circle"></i>
+                                            </div>
+                                            <div class="author-info">
+                                                <h4>Amit Kumar</h4>
+                                                <p>MBA - 1st Year</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                        <div class="slider-dots">
+                            <span class="dot active" data-slide="0"></span>
+                            <span class="dot" data-slide="1"></span>
+                            <span class="dot" data-slide="2"></span>
+                        </div>
+                        <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact-section" id="contact">
+                <div class="card">
+                    <div class="card-title">
+                        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+                    </div>
+                    <div class="card-content">
+                        <p>Have suggestions or found an issue? Get in touch with us!</p>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" class="input-field" placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="input-field" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" class="input-field" rows="4" placeholder="Type your message here"></textarea>
+                            </div>
+                            <div class="card-actions">
+                                <button type="button" class="button primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="results-screen" class="screen">
+            <div class="card search-params-card">
+                <div class="card-content">
+                    <h2><i class="fas fa-filter"></i> Search Parameters</h2>
+                    <div class="chips-container">
+                        <div id="block-chip" class="chip">
+                            <i class="fas fa-building"></i>
+                            <span>Block</span>
+                        </div>
+                        <div id="day-chip" class="chip">
+                            <i class="fas fa-calendar"></i>
+                            <span>Day</span>
+                        </div>
+                        <div id="time-chip" class="chip">
+                            <i class="fas fa-clock"></i>
+                            <span>Time</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Room Filter Controls -->
+            <div class="room-filters card">
+                <div class="card-title">
+                    <h2><i class="fas fa-sliders-h"></i> Filter Options</h2>
+                </div>
+                <div class="card-content">
+                    <div class="filter-group">
+                        <label>Floor Preference</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="floor-filter" value="Ground" checked> Ground
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="floor-filter" value="First" checked> First
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="floor-filter" value="Second" checked> Second
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="floor-filter" value="Third" checked> Third+
+                            </label>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <label>Sort By</label>
+                        <select id="sort-rooms" class="select-field">
+                            <option value="roomNumber">Room Number</option>
+                            <option value="floor">Floor</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loading-container" class="loading-container">
+                <div class="loader"></div>
+                <p>Finding available rooms...</p>
+            </div>
+            
+            <div id="error-container" class="error-container" style="display:none;">
+                <div class="card error-card">
+                    <div class="card-content">
+                        <h2><i class="fas fa-exclamation-triangle"></i> Error</h2>
+                        <p id="error-message"></p>
+                        <button id="go-back-button" class="button primary"><i class="fas fa-arrow-left"></i> Go Back</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="no-results-container" class="no-results-container" style="display:none;">
+                <div class="card no-results-card">
+                    <div class="card-content">
+                        <i class="fas fa-search" style="font-size: 48px; color: #e50914; margin-bottom: 16px;"></i>
+                        <h2>No available rooms found</h2>
+                        <p>Try changing your search parameters</p>
+                        <button id="new-search-button" class="button primary"><i class="fas fa-sync-alt"></i> New Search</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="results-container" class="results-container" style="display:none;">
+                <p id="results-count" class="results-count"><i class="fas fa-check-circle"></i> <span>0 available rooms found</span></p>
+                <div id="rooms-list" class="rooms-list">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+                <div class="card-actions">
+                    <button id="results-back-button" class="button primary"><i class="fas fa-arrow-left"></i> Back to Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>
+                    <img src="images/new_logo_2 (1).png" 
+                         alt="Sharda University" 
+                         class="footer-logo">
+                    Free Class Navigator
+                </h3>
+                <p>Making classroom discovery easier for Sharda University students.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Free Class Navigator | Sharda University</p>
+        </div>
+    </footer>
+    
+    <script src="js/services/roomService.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 

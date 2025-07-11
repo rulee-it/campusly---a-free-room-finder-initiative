@@ -1,0 +1,117 @@
+====================================
+FREE CLASS NAVIGATOR - PRESENTATION CONTENT
+====================================
+
+--------------------------
+SLIDE 1: TITLE SLIDE
+--------------------------
+Free Class Navigator
+- A Netflix-inspired classroom finder for Sharda University
+- Beyond Boundaries
+- [Insert presenter name(s)]
+- [Insert date]
+
+--------------------------
+SLIDE 2: INTRODUCTION
+--------------------------
+What is Free Class Navigator?
+- Web application designed for Sharda University students
+- Helps locate available classrooms quickly and efficiently
+- Modern, Netflix-inspired dark theme interface
+- Mobile-responsive design for access on any device
+- Created to optimize campus resource utilization
+
+--------------------------
+SLIDE 3: THE PROBLEM
+--------------------------
+Challenges Students Face:
+- Difficulty finding empty classrooms for study sessions
+- Time wasted searching multiple buildings
+- No centralized system to check room availability
+- Conflict with scheduled classes
+- Limited knowledge of available spaces across campus blocks
+
+--------------------------
+SLIDE 4: OUR SOLUTION
+--------------------------
+Free Class Navigator: Streamlined Classroom Discovery
+- Instant search based on three simple criteria:
+  - Block number
+  - Day of the week
+  - Time period
+- Real-time availability information
+- Filtering options by floor preference
+- Sort results by room number or floor
+- Responsive design for all devices
+
+--------------------------
+SLIDE 5: KEY FEATURES
+--------------------------
+Core Functionality:
+- Quick Search: Find available rooms in seconds
+- Real-time Data: Current timetable-based availability
+- Block Navigation: Filter by specific university blocks
+- Floor Filters: Specify your preferred floor levels
+- Mobile Responsive: Use on any device, anywhere
+- Dark Theme: Eye-friendly Netflix-inspired interface
+- Intuitive UI: Simple three-step search process
+
+--------------------------
+SLIDE 6: USER INTERFACE
+--------------------------
+Netflix-Inspired Design:
+- Dark Theme: Reduces eye strain, modern aesthetic
+- Card-Based Layout: Clean organization of information
+- Animated Elements: Smooth transitions and hover effects
+- Responsive Design: Adapts to all screen sizes
+- Accessible Controls: Easy-to-use dropdown selectors
+- Clear Results: Visual presentation of available rooms
+- Sharda University Branding: Integrated throughout interface
+
+--------------------------
+SLIDE 7: HOW IT WORKS
+--------------------------
+Search Process:
+1. Select Block: Choose specific building block
+2. Choose Day: Select day of the week
+3. Pick Time: Select desired time period
+4. View Results: Browse available classrooms
+5. Apply Filters: Refine by floor preference
+6. Sort Options: Organize by room number or floor
+7. Get Details: See complete room information
+
+--------------------------
+SLIDE 8: BENEFITS FOR STUDENTS
+--------------------------
+Enhancing Campus Experience:
+- Time Savings: Quickly find study spaces without wandering
+- Better Planning: Schedule group meetings with confidence
+- Resource Optimization: Utilize unused campus spaces
+- Reduced Disruptions: Avoid interrupting ongoing classes
+- Collaboration Support: Easily find spaces for group work
+- Stress Reduction: Eliminate uncertainty about availability
+- Improved Study Environment: Find appropriate spaces
+
+--------------------------
+SLIDE 9: TECHNICAL IMPLEMENTATION
+--------------------------
+Behind the Scenes:
+- Front-End: HTML5, CSS3, JavaScript
+- Responsive Design: Media queries for all devices
+- Animations: CSS and JavaScript transitions
+- Custom UI Components: Dropdowns, cards, filters
+- Data Management: Dynamic loading of classroom information
+- Search Algorithm: Efficient filtering of available rooms
+- University Integration: Sharda University branding and data
+
+--------------------------
+SLIDE 10: FUTURE ENHANCEMENTS
+--------------------------
+Roadmap for Improvement:
+- Room Booking: Reserve classrooms in advance
+- User Accounts: Personalize experiences and preferences
+- Calendar Integration: Sync with student schedules
+- Push Notifications: Alerts for favorite room availability
+- Room Details: Information about facilities (projectors, computers)
+- Feedback System: Report issues or incorrect information
+- Analytics Dashboard: Track usage patterns for better resource allocation 
