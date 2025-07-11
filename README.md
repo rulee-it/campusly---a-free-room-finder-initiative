@@ -80,5 +80,5 @@ This is a standalone web version of the Free Class Navigator, originally develop
 The present project report is my original work and has not been submitted for credit toward any other academic qualification, certificate, or degree. I hereby assure that the submitted work does not violate any existing copyright laws. The online certificate maker website described in this report was developed solely by me, with guidance from lectures and online resources as acknowledged.
 
 ---
-
+Ashmit Naik 
 © 2023 Free Class Navigator | Originally developed as a React Native app, web version created to expand access 
