@@ -3,6 +3,9 @@
 ## Overview
 Free Class Navigator is a web application designed to help Sharda University students find available classrooms based on their preferences. Users can select a block, day, and time to find unoccupied classrooms for studying, group work, or other activities.
 
+#Live Demo
+https://rulee-it.github.io/campusly---a-free-room-finder-initiative/
+
 ## Features
 - **Simple Search Interface**: Easy-to-use dropdown selectors for block number, day, and time
 - **Real-time Results**: Quick display of available classrooms based on search criteria
