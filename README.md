@@ -1,7 +1,7 @@
-# Free Class Navigator - Web Version
+# Campusly: Free Class Navigator - Web Version
 
 ## Overview
-Free Class Navigator is a web application designed to help Sharda University students find available classrooms based on their preferences. Users can select a block, day, and time to find unoccupied classrooms for studying, group work, or other activities.
+Campusly is a web application designed to help Sharda University students find available classrooms based on their preferences. Users can select a block, day, and time to find unoccupied classrooms for studying, group work, or other activities.
 
 #Live Demo
 https://rulee-it.github.io/campusly---a-free-room-finder-initiative/
@@ -83,5 +83,5 @@ This is a standalone web version of the Free Class Navigator, originally develop
 The present project report is my original work and has not been submitted for credit toward any other academic qualification, certificate, or degree. I hereby assure that the submitted work does not violate any existing copyright laws. The online certificate maker website described in this report was developed solely by me, with guidance from lectures and online resources as acknowledged.
 
 ---
-Ashmit Naik 
+Ashmit Naik | Aashish Rajput
 © 2023 Free Class Navigator | Originally developed as a React Native app, web version created to expand access 
